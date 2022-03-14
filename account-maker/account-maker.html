@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account-maker</title>
+    <link rel="stylesheet" type="text/css" href="account-maker.css" media="screen">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">account-maker</h1>
+        <p id="subtitulo">Complete as suas informações</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="e-mail"><strong>E-mail:</strong></label>
+                <input type="email" name="e-mail" id="e-mail" required>
+            </div>
+            <div class="campo">
+                <label for="número de telefone"><strong>Número de telefone:</strong></label>
+                <input type="number" name="número de telefone" id="número de telefone" required>
+            </div>
+            <div class="campo">
+                <label for="morada"><strong>Morada:</strong></label>
+                <input type="text" name="morada" id="morada" required>
+            </div>
+            <div class="campo">
+                <label for="NIF"><strong>NIF:</strong></label>
+                <input type="number" name="NIF" id="NIF" required>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="grupo">
+            <div class="campo">
+                <br>
+                <label for="observações"><strong>Observações:</strong></label>
+                <textarea rows="6" style="width:26em" name="observações" id="observações"></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <button class="botao" type="submit" onsubmit="">Concluído</button>
+    </form>
+</body>
+
+</html>
